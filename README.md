@@ -24,7 +24,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v6
       - name: Mirror filtered repository
-        uses: alinnow/mirror-only-readme@v1
+        uses: https://codeberg.org/alinnow/mirror-only-readme@v1
         with:
           other_forge_token: ${{ secrets.OTHER_FORGE_TOKEN }}
           prune_empty: never
